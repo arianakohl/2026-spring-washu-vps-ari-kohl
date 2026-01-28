@@ -1,0 +1,46 @@
+body {
+  font-family: 'Comic Sans MS', 'Brush Script MT', cursive;
+  text-align: left;
+  color: #2c2c2c;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.05em;
+}
+
+h5 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
