@@ -1,0 +1,29 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 2rem;
+  background: #fff;
+  color: #111;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.menu-grid h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.menu-grid h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+}
