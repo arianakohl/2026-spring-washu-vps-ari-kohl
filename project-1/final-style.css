@@ -1,0 +1,142 @@
+body {
+  font-family: 'Impact', 'Haettenschweiler', 'Arial Black', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 0rem;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Impact', 'Haettenschweiler', 'Arial Black', sans-serif;
+  font-size: 12vw;
+  letter-spacing: 3px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 0.3em 1em;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1.25rem;
+}
+
+
+h3 {
+  color: #ffffff;
+  font-family: 'Impact', 'Haettenschweiler', 'Arial Black', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem; font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.menu-banner {
+  display: block;
+  margin: 0.5rem auto 1.25rem auto;
+  max-width: 100%;
+  height: auto;
+  width: 700px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.menu-item {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 0;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.menu-header h3 {
+  margin: 0;
+}
+
+.price {
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.menu-item h5 {
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  opacity: 0.85;
+}
+
+.menu-item h3 {
+  font-size: 1.35rem;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.section-header {
+  background-color: white;
+  color: black;
+
+  text-align: center;        /* THIS is the key */
+  padding: 0.75rem 0;
+  margin: 2rem 0 1.5rem;
+}
+
+.section-header h2 {
+  display: inline-block;
+  margin: 0;
+  font-family: Impact, sans-serif;
+  font-size: 2.5rem;
+}
+
+.portion-label {
+  display: inline-block;
+  margin-left: 1rem;
+  font-family: Impact, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+@media (max-width: 600px) {
+  .section-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+}
