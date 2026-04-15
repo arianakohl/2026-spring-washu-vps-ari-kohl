@@ -96,3 +96,9 @@ a:hover {
   margin-bottom: 0.75rem;
   font-size: 1.1rem;
 }
+
+#random-question {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}

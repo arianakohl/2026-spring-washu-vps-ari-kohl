@@ -9,6 +9,7 @@
 <body>
     <h1>Ari's class website</h1>
     <p>Welcome to my class website!</p>
+    <p id="random-question"></p>
     <hr>
     <h2>Exercises</h2>
     <ul>
@@ -38,5 +39,53 @@
     <ul>
         <li><a href="interview-website/interview.html">Interview Share Website</a></li>
     </ul>
+    <script>
+    const cardTexts = [
+        "What sort of person will the use of this technology make of me?",
+        "What habits will the use of this technology instill?",
+        "How will the use of this technology affect my experience of time?",
+        "How will the use of this technology affect my experience of place?",
+        "How will the use of this technology affect how I relate to other people?",
+        "How will the use of this technology affect how I relate to the world around me?",
+        "What practices will the use of this technology cultivate?",
+        "What practices will the use of this technology displace?",
+        "What will the use of this technology encourage me to notice?",
+        "What will the use of this technology encourage me to ignore?",
+        "What was required of other human beings so that I might be able to use this technology?",
+        "What was required of other creatures so that I might be able to use this technology?",
+        "What was required of the earth so that I might be able to use this technology?",
+        "Does the use of this technology bring me joy?",
+        "Does the use of this technology arouse anxiety?",
+        "How does this technology empower me? At whose expense?",
+        "What feelings does the use of this technology generate in me toward others?",
+        "Can I imagine living without this technology? Why, or why not?",
+        "How does this technology encourage me to allocate my time?",
+        "Could the resources used to acquire and use this technology be better deployed?",
+        "Does this technology automate or outsource labor or responsibilities that are morally essential?",
+        "What desires does the use of this technology generate?",
+        "What desires does the use of this technology dissipate?",
+        "What possibilities for action does this technology present?",
+        "What possibilities for action does this technology foreclose?",
+        "How does the use of this technology shape my vision of a good life?",
+        "What limits does the use of this technology impose upon me?",
+        "What limits does my use of this technology impose upon others?",
+        "What does my use of this technology require of others who would (or must) interact with me?",
+        "What assumptions about the world does the use of this technology tacitly encourage?",
+        "What knowledge has the use of this technology disclosed to me about myself?",
+        "What knowledge has the use of this technology disclosed to me about others?",
+        "What are the potential harms to myself, others, or the world that might result from my use of this technology?",
+        "Upon what systems, technical or human, does my use of this technology depend?",
+        "Does my use of this technology encourage me to view others as a means to an end?",
+        "Does using this technology require me to think more or less?",
+        "What would the world be like if everyone used this technology exactly as I use it?",
+        "What risks will my use of this technology entail for others?",
+        "Can the consequences of my use of this technology be undone?",
+        "Does my use of this technology make it easier to live as if I had no responsibilities toward my neighbor?",
+        "Can I be held responsible for the actions which this technology empowers?"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * cardTexts.length);
+    document.getElementById("random-question").textContent = cardTexts[randomIndex];
+</script>
 </body>
 </html>
